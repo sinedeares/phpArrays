@@ -1,0 +1,63 @@
+body {
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .btn {
+    border: 0;
+    border-radius: 30px;
+    background-color: #666cff;
+    width: 300px;
+    height: 40px;
+    transition: 1s;
+  }
+  .btn:hover {
+    border: 3px solid #666cff;
+    background-color: #fff;
+  }
+  
+  .item {
+    position: relative;
+    width: 370px;
+    height: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  
+  .item:hover {
+  /*   border: 0; */
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.40);
+  }
+  
+  .item-img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-image: url("/tele.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .item-title {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  
+  .item-btn {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+table{
+    border: 1px solid black;
+}
+  
